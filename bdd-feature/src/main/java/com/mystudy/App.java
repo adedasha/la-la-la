@@ -8,6 +8,12 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+
+        Box korobka = new Box();
+       korobka.setDim(20,46,75);
+        int volume = korobka.getVolume();
+
+
+        System.out.println ("V= " + volume );
     }
 }
