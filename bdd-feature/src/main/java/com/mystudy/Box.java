@@ -7,15 +7,14 @@ package com.mystudy;
  * Time: 17:34
  * To change this template use File | Settings | File Templates.
  */
-public class Box {
-    static int hight;
-    static int widht;
+public class Box  extends Square{
+
     static int deep;
 
       static int getVolume(){
-        return (widht*hight*deep);
+        return (getSquare()*deep);
     }
-    public static void setDim(int w, int h, int d){
+    public static void setParams(int w, int h, int d){
         widht = w;
         hight = h;
         deep = d;
