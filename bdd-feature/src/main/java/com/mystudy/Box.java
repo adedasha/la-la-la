@@ -8,14 +8,14 @@ package com.mystudy;
  * To change this template use File | Settings | File Templates.
  */
 public class Box {
-    int hight;
-    int widht;
-    int deep;
+    static int hight;
+    static int widht;
+    static int deep;
 
-    int getVolume(){
+      static int getVolume(){
         return (widht*hight*deep);
     }
-    public void setDim(int w, int h, int d){
+    public static void setDim(int w, int h, int d){
         widht = w;
         hight = h;
         deep = d;
