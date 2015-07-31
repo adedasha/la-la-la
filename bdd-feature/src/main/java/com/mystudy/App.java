@@ -1,10 +1,9 @@
 package com.mystudy;
 
 
-import static com.mystudy.Square.getSquare;
-import static com.mystudy.Square.setParams;
-import static com.mystudy.Box.setParams;
 import static com.mystudy.Box.getVolume;
+import static com.mystudy.Box.setParams;
+import static com.mystudy.Square.getSquare;
 
 /**
  * Hello world!

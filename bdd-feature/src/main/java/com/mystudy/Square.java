@@ -8,16 +8,16 @@ package com.mystudy;
  * To change this template use File | Settings | File Templates.
  */
 public class Square {
-        static int hight;
-        static int widht;
+    static int hight;
+    static int widht;
 
 
-        static int getSquare(){
-            return (widht*hight);
-        }
-        public static void setParams(int w, int h){
-            widht = w;
-            hight = h;
+    static int getSquare(){
+        return (widht*hight);
+    }
+    public static void setParams(int w, int h){
+        widht = w;
+        hight = h;
 
-        }
+    }
 }
